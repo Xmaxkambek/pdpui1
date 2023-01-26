@@ -4,7 +4,7 @@ import 'package:pdpui1/pages/home_page.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    MaterialApp(debugShowCheckedModeBanner: false,
       home: HomePage(),
     ),
   );
